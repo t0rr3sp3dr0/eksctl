@@ -7,15 +7,13 @@ go 1.12
 require (
 	github.com/MakeNowJust/heredoc v0.0.0-20171113091838-e9091a26100e // indirect
 	github.com/alecthomas/jsonschema v0.0.0-20190530235721-fd8d96416671
-	github.com/aws/aws-sdk-go v1.23.15
+	github.com/aws/aws-sdk-go v1.35.0
 	github.com/awslabs/goformation v0.0.0-20190320125420-ac0a17860cf1
 	github.com/blang/semver v3.5.1+incompatible
 	github.com/christopherhein/go-version v0.0.0-20180807222509-fee8dd1f7c24
 	github.com/cloudflare/cfssl v0.0.0-20190726000631-633726f6bcb7
 	github.com/coredns/coredns v0.0.0-20170910182647-1b60688dc8f7 // indirect
 	github.com/coreos/bbolt v1.3.3 // indirect
-	github.com/coreos/etcd v3.3.13+incompatible // indirect
-	github.com/coreos/go-semver v0.3.0 // indirect
 	github.com/coreos/go-systemd v0.0.0-20190620071333-e64a0ec8b42a // indirect
 	github.com/dave/jennifer v1.3.0
 	github.com/dlespiau/kube-test-harness v0.0.0-20190110151726-c51c87635b61
@@ -25,12 +23,10 @@ require (
 	github.com/fluxcd/flux v1.15.0
 	github.com/fluxcd/helm-operator v1.0.0-rc2
 	github.com/go-ini/ini v1.37.0 // indirect
-	github.com/go-stack/stack v1.8.0 // indirect
 	github.com/gobuffalo/envy v1.7.0 // indirect
 	github.com/gobwas/glob v0.2.3
 	github.com/gofrs/flock v0.7.1 // indirect
-	github.com/gohugoio/hugo v0.55.6
-	github.com/google/btree v1.0.0 // indirect
+	github.com/gohugoio/hugo v0.79.1
 	github.com/google/certificate-transparency-go v1.0.21 // indirect
 	github.com/goreleaser/goreleaser v0.110.0
 	github.com/gregjones/httpcache v0.0.0-20190611155906-901d90724c79 // indirect
@@ -39,33 +35,26 @@ require (
 	github.com/justinbarrick/go-k8s-portforward v1.0.4-0.20190722134107-d79fe1b9d79d
 	github.com/kballard/go-shellquote v0.0.0-20180428030007-95032a82bc51
 	github.com/kevinburke/go-bindata v3.15.0+incompatible
-	github.com/kr/fs v0.1.0 // indirect
 	github.com/kris-nova/logger v0.0.0-20181127235838-fd0d87064b06
 	github.com/kris-nova/lolgopher v0.0.0-20180124180951-14d43f83481a // indirect
 	github.com/kubernetes-sigs/aws-iam-authenticator v0.4.0
 	github.com/kubicorn/kubicorn v0.0.0-20180829191017-06f6bce92acc
 	github.com/lithammer/dedent v1.1.0
-	github.com/magiconair/properties v1.8.1 // indirect
 	github.com/mattn/go-zglob v0.0.1 // indirect
 	github.com/miekg/coredns v0.0.0-20170910182647-1b60688dc8f7 // indirect
 	github.com/onsi/ginkgo v1.8.0
 	github.com/onsi/gomega v1.5.0
-	github.com/pelletier/go-toml v1.4.0 // indirect
 	github.com/peterbourgon/diskv v2.0.1+incompatible // indirect
-	github.com/pkg/errors v0.8.1
-	github.com/pkg/sftp v1.8.3 // indirect
+	github.com/pkg/errors v0.9.1
 	github.com/riywo/loginshell v0.0.0-20190610082906-2ed199a032f6
 	github.com/sanathkr/yaml v1.0.0 // indirect
 	github.com/sirupsen/logrus v1.4.2 // indirect
-
-	github.com/spf13/afero v1.2.2
-
-	github.com/spf13/cobra v0.0.4
-
+	github.com/spf13/afero v1.4.1
+	github.com/spf13/cobra v1.1.1
 	github.com/spf13/pflag v1.0.5
-	github.com/spf13/viper v1.3.2
+	github.com/spf13/viper v1.7.1
 	github.com/spotinst/spotinst-sdk-go v0.0.0-20181012192533-fed4677dbf8f // indirect
-	github.com/stretchr/testify v1.3.0
+	github.com/stretchr/testify v1.6.1
 	github.com/tidwall/gjson v1.1.3
 	github.com/tidwall/match v1.0.0 // indirect
 	github.com/tidwall/sjson v1.0.2
@@ -77,12 +66,8 @@ require (
 	github.com/whilp/git-urls v0.0.0-20160530060445-31bac0d230fa
 	github.com/zmap/zlint v0.0.0-20190806182416-88c3f6b6f2f5 // indirect
 	go.etcd.io/bbolt v1.3.3 // indirect
-	go.uber.org/atomic v1.4.0 // indirect
-	go.uber.org/zap v1.10.0 // indirect
-	golang.org/x/tools v0.0.0-20190621195816-6e04913cbbac
-	google.golang.org/grpc v1.21.1 // indirect
+	golang.org/x/tools v0.0.0-20191112195655-aa38f8e97acc
 	gopkg.in/gcfg.v1 v1.2.3 // indirect
-	gopkg.in/ini.v1 v1.42.0 // indirect
 	k8s.io/api v0.0.0-20190808180749-077ce48e77da
 	k8s.io/apiextensions-apiserver v0.0.0-20190315093550-53c4693659ed
 	k8s.io/apimachinery v0.0.0-20190808180622-ac5d3b819fc6
