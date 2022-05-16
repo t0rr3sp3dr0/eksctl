@@ -25,7 +25,6 @@ require (
 	github.com/fluxcd/flux v1.15.0
 	github.com/fluxcd/helm-operator v1.0.0-rc2
 	github.com/go-ini/ini v1.37.0 // indirect
-	github.com/go-stack/stack v1.8.0 // indirect
 	github.com/gobuffalo/envy v1.7.0 // indirect
 	github.com/gobwas/glob v0.2.3
 	github.com/gofrs/flock v0.7.1 // indirect
@@ -57,17 +56,13 @@ require (
 	github.com/riywo/loginshell v0.0.0-20190610082906-2ed199a032f6
 	github.com/sanathkr/yaml v1.0.0 // indirect
 	github.com/sirupsen/logrus v1.4.2 // indirect
-
 	github.com/spf13/afero v1.2.2
-
 	github.com/spf13/cobra v0.0.4
-
 	github.com/spf13/pflag v1.0.5
 	github.com/spf13/viper v1.3.2
 	github.com/spotinst/spotinst-sdk-go v0.0.0-20181012192533-fed4677dbf8f // indirect
 	github.com/stretchr/testify v1.3.0
-	github.com/tidwall/gjson v1.1.3
-	github.com/tidwall/match v1.0.0 // indirect
+	github.com/tidwall/gjson v1.9.3
 	github.com/tidwall/sjson v1.0.2
 	github.com/vektra/mockery v0.0.0-20181123154057-e78b021dcbb5
 	github.com/vmware/govmomi v0.19.0 // indirect
