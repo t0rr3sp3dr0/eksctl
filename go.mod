@@ -7,7 +7,7 @@ go 1.12
 require (
 	github.com/MakeNowJust/heredoc v0.0.0-20171113091838-e9091a26100e // indirect
 	github.com/alecthomas/jsonschema v0.0.0-20190530235721-fd8d96416671
-	github.com/aws/aws-sdk-go v1.23.15
+	github.com/aws/aws-sdk-go v1.33.0
 	github.com/awslabs/goformation v0.0.0-20190320125420-ac0a17860cf1
 	github.com/blang/semver v3.5.1+incompatible
 	github.com/christopherhein/go-version v0.0.0-20180807222509-fee8dd1f7c24
@@ -25,7 +25,6 @@ require (
 	github.com/fluxcd/flux v1.15.0
 	github.com/fluxcd/helm-operator v1.0.0-rc2
 	github.com/go-ini/ini v1.37.0 // indirect
-	github.com/go-stack/stack v1.8.0 // indirect
 	github.com/gobuffalo/envy v1.7.0 // indirect
 	github.com/gobwas/glob v0.2.3
 	github.com/gofrs/flock v0.7.1 // indirect
@@ -52,20 +51,17 @@ require (
 	github.com/onsi/gomega v1.5.0
 	github.com/pelletier/go-toml v1.4.0 // indirect
 	github.com/peterbourgon/diskv v2.0.1+incompatible // indirect
-	github.com/pkg/errors v0.8.1
+	github.com/pkg/errors v0.9.1
 	github.com/pkg/sftp v1.8.3 // indirect
 	github.com/riywo/loginshell v0.0.0-20190610082906-2ed199a032f6
 	github.com/sanathkr/yaml v1.0.0 // indirect
 	github.com/sirupsen/logrus v1.4.2 // indirect
-
 	github.com/spf13/afero v1.2.2
-
 	github.com/spf13/cobra v0.0.4
-
 	github.com/spf13/pflag v1.0.5
 	github.com/spf13/viper v1.3.2
 	github.com/spotinst/spotinst-sdk-go v0.0.0-20181012192533-fed4677dbf8f // indirect
-	github.com/stretchr/testify v1.3.0
+	github.com/stretchr/testify v1.5.1
 	github.com/tidwall/gjson v1.1.3
 	github.com/tidwall/match v1.0.0 // indirect
 	github.com/tidwall/sjson v1.0.2
