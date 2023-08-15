@@ -20,12 +20,11 @@ require (
 	github.com/dave/jennifer v1.3.0
 	github.com/dlespiau/kube-test-harness v0.0.0-20190110151726-c51c87635b61
 	github.com/docker/distribution v2.7.1+incompatible // indirect
-	github.com/docker/docker v1.13.1 // indirect
+	github.com/docker/docker v20.10.24+incompatible // indirect
 	github.com/evanphx/json-patch v4.2.0+incompatible
 	github.com/fluxcd/flux v1.15.0
 	github.com/fluxcd/helm-operator v1.0.0-rc2
 	github.com/go-ini/ini v1.37.0 // indirect
-	github.com/go-stack/stack v1.8.0 // indirect
 	github.com/gobuffalo/envy v1.7.0 // indirect
 	github.com/gobwas/glob v0.2.3
 	github.com/gofrs/flock v0.7.1 // indirect
@@ -57,11 +56,8 @@ require (
 	github.com/riywo/loginshell v0.0.0-20190610082906-2ed199a032f6
 	github.com/sanathkr/yaml v1.0.0 // indirect
 	github.com/sirupsen/logrus v1.4.2 // indirect
-
 	github.com/spf13/afero v1.2.2
-
 	github.com/spf13/cobra v0.0.4
-
 	github.com/spf13/pflag v1.0.5
 	github.com/spf13/viper v1.3.2
 	github.com/spotinst/spotinst-sdk-go v0.0.0-20181012192533-fed4677dbf8f // indirect
@@ -79,10 +75,11 @@ require (
 	go.etcd.io/bbolt v1.3.3 // indirect
 	go.uber.org/atomic v1.4.0 // indirect
 	go.uber.org/zap v1.10.0 // indirect
-	golang.org/x/tools v0.0.0-20190621195816-6e04913cbbac
+	golang.org/x/tools v0.2.0
 	google.golang.org/grpc v1.21.1 // indirect
 	gopkg.in/gcfg.v1 v1.2.3 // indirect
 	gopkg.in/ini.v1 v1.42.0 // indirect
+	gotest.tools/v3 v3.5.0 // indirect
 	k8s.io/api v0.0.0-20190808180749-077ce48e77da
 	k8s.io/apiextensions-apiserver v0.0.0-20190315093550-53c4693659ed
 	k8s.io/apimachinery v0.0.0-20190808180622-ac5d3b819fc6
